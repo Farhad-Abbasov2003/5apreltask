@@ -4,17 +4,10 @@
 }
 
 
-
-
 .header1 {
     color: white;
-    background-color: rgb(33, 37, 41);
+    background-color: rgb(57, 59, 61);
     font-family: robotoRegular;
-}
-
-.header1 h1 {
-    position: absolute;
-    left: 80px;
 }
 
 .header1 h1,
@@ -24,50 +17,76 @@
     line-height: 50px;
 }
 
+.header1 h1 {
+    margin-left: 35px;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 77%;
+}
+
 .parallax1 {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/659/965/95/red-bull-f1-hd-cars-wallpaper-preview.jpg");
+    background-image: url("https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjE5NzYxNTgy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
     height: 70vh;
     width: 100%;
+    color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.newParagraph{
     text-align: center;
+
+}
+
+.newParagraph {
     background-color: white;
     color: black;
-    width: 1430px;
+    width: 700px;
+    margin-left: 350px;
     padding-top: 100px;
     padding-bottom: 100px;
+    font-family: robotoRegular;
 }
 
 .parallax2 {
-    background-image: url("http://wallpaperset.com/w/full/f/8/7/23730.jpg");
+    background-image: url("https://images.unsplash.com/photo-1516663713099-37eb6d60c825?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNDY4MTQ1NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1200");
     height: 70vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .avatar {
     vertical-align: middle;
-    margin-left: 625px;
     margin-top: 100px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-  }
+}
+.avatar-words{
+    font-family: robotoRegular;
+}
+.avatar-words p{
+    color: rgb(137,139,140);
+    font-family: robotoRegular;
+}
 
-.newParagraph2{
-    text-align: center;
+.newParagraph2 {
     background-color: white;
     color: black;
-    width: 1430px;
+    width: 700px;
+    margin-left: 350px;
     padding-top: 100px;
     padding-bottom: 100px;
+    font-family: robotoRegular;
 }
-.newParagraph3{
+
+.newParagraph3 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: rgb(57, 59, 61);
+    color: white;
+    font-family: robotoRegular;
 }
